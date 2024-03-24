@@ -11,6 +11,7 @@ Parameter INVOCATION = "Queue";
 /// for tips on how to implement operation methods.
 Method SampleCall(pRequest As Ens.Request, Output pResponse As Ens.Response) As %Status
 {
+  w "hello world"
   Return $$$ERROR($$$NotImplemented)
 }
 
